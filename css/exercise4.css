@@ -1,0 +1,125 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#global {
+    width: 800px;
+    height: 600px;
+}
+
+header {
+    height: 100px;
+    background-color: pink;
+
+}
+
+nav {
+
+    background-color: black;
+    height: 50px;
+
+}
+
+aside {
+    background-color: darkcyan;
+    color: black;
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+
+
+}
+
+section {
+    background-color: white;
+    display: inline-block;
+    height: 400px;
+    width: 50%;
+
+}
+
+footer {
+    height: 100px;
+    background-color: aqua;
+}
+
+h1 {
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+h2 {
+    padding: 2%;
+}
+
+h2+ol li:nth-child(2n) {
+    color: orange;
+}
+
+aside,
+section {
+    vertical-align: top;
+}
+
+
+nav ol li {
+    display: inline-block;
+    color: white;
+}
+
+ol li {
+
+    font-size: 20px;
+    padding-right: 95px;
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style-type: lower-alpha;
+    color: white;
+
+}
+
+ol,
+ul {
+    list-style-position: inside;
+
+}
+
+
+ul li {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+aside ul {
+    list-style: square;
+    list-style-position: inside;
+}
+
+aside ul ol li {
+    color: aqua;
+    padding-left: 56px;
+    list-style-type: decimal;
+
+}
+
+h2+ul :nth-child(1) {
+    font-style: italic;
+}
+
+h2+ul :nth-child(3) {
+
+    text-decoration: underline;
+}
+
+h2+ul :nth-child(1) {
+
+    text-decoration: underline;
+}
